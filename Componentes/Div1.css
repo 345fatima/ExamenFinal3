@@ -1,0 +1,155 @@
+.Grid {
+    width: auto;
+    height: auto;
+
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    border: 1px solid black;
+    gap: 10px;
+}
+
+.cuadro1{
+    width: auto;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    
+    background-color: rgb(164, 245, 131);
+    grid-column: 1/3;
+}
+.cuadro2{
+    width: auto;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    
+
+    background-color: rgb(238, 181, 117);
+    
+}
+.cuadro3{
+    width: auto;
+    height: 417px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+   
+    background-color: rgb(159, 201, 240);
+    grid-column: 4/4;
+    grid-row: 1/3;
+}
+.cuadro4{
+    width: auto;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    
+
+    background-color: rgb(115, 230, 210);
+    
+}
+.cuadro5{
+    width: auto;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+   
+
+    background-color: rgb(151, 103, 148);
+    
+}
+.cuadro6{
+    width: auto;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    
+
+    background-color: rgb(134, 132, 143);
+    
+}
+.cuadro7{
+   
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    
+    background-color: rgb(201, 192, 73);
+    grid-row: 3/5;
+    grid-column: 1/3;
+    
+    
+}
+.cuadro8{
+    width: auto;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+    background-color: rgb(128, 155, 31);
+    
+    
+}
+.cuadro9{
+    width: auto;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+    background-color: rgb(82, 156, 115);
+    
+}
+.cuadro10{
+    width: auto;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    
+
+    background-color: rgb(41, 86, 104);
+    border: 1px solid black;
+    
+    grid-column: 3/4;
+}
+.cuadro11{
+    width: auto;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+    background-color: rgb(185, 147, 77);
+    grid-column: 4/4;
+    
+}
